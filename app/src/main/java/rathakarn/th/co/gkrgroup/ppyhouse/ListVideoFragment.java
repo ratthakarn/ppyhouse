@@ -1,4 +1,4 @@
-package masterung.th.in.androidthai.mytutorial;
+package rathakarn.th.co.gkrgroup.ppyhouse;
 
 
 import android.content.Intent;
@@ -12,7 +12,6 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -50,7 +49,7 @@ public class ListVideoFragment extends Fragment {
         recyclerView.setLayoutManager(linearLayoutManager);
 
         FirebaseDatabase firebaseDatabase = FirebaseDatabase.getInstance();
-        DatabaseReference databaseReference = firebaseDatabase.getReference().child("VideoMasterUNG");
+        DatabaseReference databaseReference = firebaseDatabase.getReference().child("ppychannel");
 
         final int[] timesInts = {0};
         final String tag = "6MarchV1";
